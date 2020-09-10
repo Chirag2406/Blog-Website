@@ -1,0 +1,38 @@
+.company{
+    font-family: Dancing Script;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+.option{
+    font-family: Grandstander;
+    font-size: 20px;
+}
+.social{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.social :hover{
+    color: rgb(97, 97, 97);
+}
+.bg-footer{
+    background-color: rgb(47, 54, 56);
+}
+.foot{
+    color: white;
+}
+.hr{
+    background-color: white;
+}
+.foot-title{
+    color: rgb(133, 133, 127);
+}
+.foot-title :hover{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
