@@ -16,7 +16,7 @@
     color: rgb(97, 97, 97);
 }
 .bg-footer{
-    background-color: rgb(47, 54, 56);
+    background-color: rgb(2, 30, 32);
 }
 .foot{
     color: white;
@@ -31,8 +31,79 @@
     text-decoration: none;
     color: white;
 }
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.rp{
+    text-align: center;
+    padding-top: 15px;
+    font-family: Nanum Brush Script;
+    color: black;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+.recent{
+    margin-top: -90px;
+}
+.category{
+    color: black;
+}
+.bg-color-nav{
+    background-color: black;
+}
+.parallax0{
+    background: url("Images/asterisk-q_gjDWf9ths-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200 px;
+    border: 10px solid rgb(253, 242, 176);
+    border-bottom: 7px solid rgb(253, 242, 176);
+}
+.parallax1{
+    background: url("Images/jane-palash-iaofnd2IdFU-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 180 px;
+    margin-top: 0.5px;
+    /* border: 10px solid rgb(73,126,129); */
+}
+.parallax2{
+    background: url("Images/spacex-uj3hvdfQujI-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 180 px;
+    /* border: 10px solid rgb(175, 174, 167);
+    border-top: 5px solid rgb(175, 174, 167); */
+}
+.parallax3{
+    background: url("Images/andrew-neel-1-29wyvvLJA-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 180 px;
+    /* border: 10px solid rgb(175, 174, 167);
+    border-top: 5px solid rgb(175, 174, 167); */
+}
+.parallax4{
+    background: url("Images/aj-garcia-wHaBKOHT5TY-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 180 px;
+    /* border: 10px solid rgb(175, 174, 167);
+    border-top: 5px solid rgb(175, 174, 167); */
+}
+.parallax5{
+    background: url("Images/tevarak-phanduang-eOvv4N6yNmk-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 180 px;
+    /* border: 10px solid rgb(175, 174, 167);
+    border-top: 5px solid rgb(175, 174, 167); */
+}
+.quote{
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+}
+.article-background{
+    background-color: rgba(255,255,255,0.4);
+}
+.article-color{
+    color: black;
 }
