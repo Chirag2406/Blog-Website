@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="body.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/30250ab259.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nanum+Brush+Script&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-color-nav">
             <a class="navbar-brand company" href="#">Article Adda</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +29,7 @@
                         <a class="nav-link px-4 option" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-4 option" href="#">Blogs</a>
+                        <a class="nav-link px-4 option" href="#blog">Blogs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-4 option" href="#">About Us</a>
@@ -38,6 +41,541 @@
             </div>
         </nav>
     </header>
+    <section class="text-gray-700 body-font parallax0">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                    class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                    <path
+                        d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                    </path>
+                </svg>
+                <p class="leading-relaxed text-lg quote">Edison bulb retro cloud bread echo park, helvetica stumptown
+                    taiyaki
+                    taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag
+                    drinking vinegar cronut adaptogen squid fanny pack vaporware. Man bun next level coloring book
+                    skateboard four loko knausgaard. Kitsch keffiyeh master cleanse direct trade indigo juice before
+                    they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb
+                    next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking
+                    vinegar.</p>
+                <span class="inline-block h-1 w-10 rounded bg-red-500 mt-8 mb-6"></span>
+                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
+                <p class="text-gray-500">Senior Product Designer</p>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-700 body-font recent parallax1">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="rp">Recent Posts</h1>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center "
+                            src="Images/aaron-burden-xG8IQMqMITM-unsplash.jpg" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+                            <p class="leading-relaxed mb-3 category">Photo booth fam kinfolk cold-pressed sriracha
+                                leggings
+                                jianbing microdosing tousled waistcoat.</p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-black inline-flex items-center md:mb-2 lg:mb-0">Read More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                            src="Images/angele-kamp-SD6bf8ZGy1w-unsplash.jpg" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+                            <p class="leading-relaxed mb-3 category">Photo booth fam kinfolk cold-pressed sriracha
+                                leggings
+                                jianbing microdosing tousled waistcoat.</p>
+                            <div class="flex items-center flex-wrap">
+                                <a class="text-black inline-flex items-center md:mb-2 lg:mb-0">Read More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                    <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center zoom"
+                            src="Images/caroline-feelgood--7djC6oWjDw-unsplash.jpg" alt="blog">
+                        <div class="p-6">
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+                            <p class="leading-relaxed mb-3 category">Photo booth fam kinfolk cold-pressed sriracha
+                                leggings
+                                jianbing microdosing tousled waistcoat.</p>
+                            <div class="flex items-center flex-wrap ">
+                                <a class="text-black inline-flex items-center md:mb-2 lg:mb-0">Read More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-700 body-font overflow-hidden parallax2" id="blog">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="rp">Science and Technology</h1>
+            <div class="flex flex-wrap -m-12">
+                <div class="p-12 md:w-1/2 flex flex-col items-start article-background">
+                    <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore
+                        before they sold out, cornhole vape</h2>
+                    <p class="leading-relaxed mb-8 article-color">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
+                        portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion
+                        axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably
+                        haven't heard of them hexagon kickstarter craft beer pork chic.</p>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
+                        <a class="text-red-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <span
+                            class="text-gray-600 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-300">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>1.2K
+                        </span>
+                        <span class="text-gray-600 inline-flex items-center leading-none text-sm">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                </path>
+                            </svg>6
+                        </span>
+                    </div>
+                    <a class="inline-flex items-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                            <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                            <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="p-12 md:w-1/2 flex flex-col items-start article-background">
+                    <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY
+                        dreamcatcher gentrify single-origin coffee</h2>
+                    <p class="leading-relaxed mb-8 article-color">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
+                        portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion
+                        axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
+                        <a class="text-red-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <span
+                            class="text-gray-600 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-300">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>1.2K
+                        </span>
+                        <span class="text-gray-600 inline-flex items-center leading-none text-sm">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                </path>
+                            </svg>6
+                        </span>
+                    </div>
+                    <a class="inline-flex items-center">
+                        <img alt="blog" src="https://dummyimage.com/103x103"
+                            class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                            <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+                            <span class="text-gray-500 text-sm">DESIGNER</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-700 body-font overflow-hidden parallax3" id="blog">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="rp">History</h1>
+            <div class="flex flex-wrap -m-12">
+                <div class="p-12 md:w-1/2 flex flex-col items-start article-background">
+                    <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore
+                        before they sold out, cornhole vape</h2>
+                    <p class="leading-relaxed mb-8 article-color">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
+                        portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion
+                        axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably
+                        haven't heard of them hexagon kickstarter craft beer pork chic.</p>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
+                        <a class="text-red-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <span
+                            class="text-gray-600 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-300">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>1.2K
+                        </span>
+                        <span class="text-gray-600 inline-flex items-center leading-none text-sm">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                </path>
+                            </svg>6
+                        </span>
+                    </div>
+                    <a class="inline-flex items-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                            <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                            <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="p-12 md:w-1/2 flex flex-col items-start article-background">
+                    <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY
+                        dreamcatcher gentrify single-origin coffee</h2>
+                    <p class="leading-relaxed mb-8 article-color">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
+                        portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion
+                        axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
+                        <a class="text-red-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <span
+                            class="text-gray-600 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-300">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>1.2K
+                        </span>
+                        <span class="text-gray-600 inline-flex items-center leading-none text-sm">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                </path>
+                            </svg>6
+                        </span>
+                    </div>
+                    <a class="inline-flex items-center">
+                        <img alt="blog" src="https://dummyimage.com/103x103"
+                            class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                            <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+                            <span class="text-gray-500 text-sm">DESIGNER</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-700 body-font overflow-hidden parallax5" id="blog">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="rp">Sports and Education</h1>
+            <div class="flex flex-wrap -m-12">
+                <div class="p-12 md:w-1/2 flex flex-col items-start article-background">
+                    <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore
+                        before they sold out, cornhole vape</h2>
+                    <p class="leading-relaxed mb-8 article-color">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
+                        portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion
+                        axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably
+                        haven't heard of them hexagon kickstarter craft beer pork chic.</p>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
+                        <a class="text-red-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <span
+                            class="text-gray-600 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-300">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>1.2K
+                        </span>
+                        <span class="text-gray-600 inline-flex items-center leading-none text-sm">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                </path>
+                            </svg>6
+                        </span>
+                    </div>
+                    <a class="inline-flex items-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                            <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                            <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="p-12 md:w-1/2 flex flex-col items-start article-background">
+                    <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY
+                        dreamcatcher gentrify single-origin coffee</h2>
+                    <p class="leading-relaxed mb-8 article-color">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
+                        portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion
+                        axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
+                        <a class="text-red-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <span
+                            class="text-gray-600 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-300">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>1.2K
+                        </span>
+                        <span class="text-gray-600 inline-flex items-center leading-none text-sm">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                </path>
+                            </svg>6
+                        </span>
+                    </div>
+                    <a class="inline-flex items-center">
+                        <img alt="blog" src="https://dummyimage.com/103x103"
+                            class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                            <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+                            <span class="text-gray-500 text-sm">DESIGNER</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-700 body-font overflow-hidden parallax4" id="blog">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="rp">Food and Travel</h1>
+            <div class="flex flex-wrap -m-12">
+                <div class="p-12 md:w-1/2 flex flex-col items-start article-background">
+                    <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore
+                        before they sold out, cornhole vape</h2>
+                    <p class="leading-relaxed mb-8 article-color">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
+                        portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion
+                        axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably
+                        haven't heard of them hexagon kickstarter craft beer pork chic.</p>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
+                        <a class="text-red-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <span
+                            class="text-gray-600 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-300">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>1.2K
+                        </span>
+                        <span class="text-gray-600 inline-flex items-center leading-none text-sm">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                </path>
+                            </svg>6
+                        </span>
+                    </div>
+                    <a class="inline-flex items-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                            <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                            <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="p-12 md:w-1/2 flex flex-col items-start article-background">
+                    <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY
+                        dreamcatcher gentrify single-origin coffee</h2>
+                    <p class="leading-relaxed mb-8 article-color">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal
+                        portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion
+                        axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
+                    <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
+                        <a class="text-red-500 inline-flex items-center">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        <span
+                            class="text-gray-600 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-300">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>1.2K
+                        </span>
+                        <span class="text-gray-600 inline-flex items-center leading-none text-sm">
+                            <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                </path>
+                            </svg>6
+                        </span>
+                    </div>
+                    <a class="inline-flex items-center">
+                        <img alt="blog" src="https://dummyimage.com/103x103"
+                            class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                            <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+                            <span class="text-gray-500 text-sm">DESIGNER</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer class="page-footer font-small indigo bg-footer">
+
+            <!-- Footer Links -->
+            <div class="container">
+          
+              <!-- Grid row-->
+              <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+          
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3 foot-title">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a class="foot-title" href="#!">About us</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+          
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3 foot-title">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a class="foot-title" href="#!">Blogs</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+          
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3 foot-title">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a class="foot-title" href="#!">Contact Us</a>
+                  </h6>
+                </div>
+                <!-- Grid column -->
+          
+              </div>
+              <!-- Grid row-->
+              <hr class="hr" style="margin: 0 15%;">
+          
+              <!-- Grid row-->
+              <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+          
+                <!-- Grid column -->
+                <div class="col-md-8 col-12 mt-5">
+                  <p class="foot" style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo.
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                </div>
+                <!-- Grid column -->
+          
+              </div>
+              <!-- Grid row-->
+              <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+          
+              <!-- Grid row-->
+              <div class="row pb-3">
+          
+                <!-- Grid column -->
+                <div class="col-md-12">
+          
+                  <div class="mb-5 flex-center social">
+          
+                    <!-- Facebook -->
+                    <a href="#">
+                    <i class="fab fa-facebook fa-2x social"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="#">
+                        <i class="fab fa-twitter fa-2x social"></i>
+                    </a>
+                    <!--Linkedin -->
+                    <a href="#">
+                        <i class="fab fa-linkedin fa-2x social"></i>
+                    </a>
+                    <!--Instagram-->
+                    <a href="#">
+                        <i class="fab fa-instagram fa-2x social"></i>
+                    </a>
+                  </div>
+          
+                </div>
+                <!-- Grid column -->
+          
+              </div>
+              <!-- Grid row-->
+          
+            </div>
+            <!-- Footer Links -->
+          
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 social">© 2020 Copyright:
+              <a href="#"> ArticleAdda.com</a>
+            </div>
+            <!-- Copyright -->
+          
+          </footer>
+          <!-- Footer -->
+    </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
